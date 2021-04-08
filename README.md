@@ -4,7 +4,7 @@
 
 This JavaScript Challenge shows how information taken from a user through form, can be processed and displayed through the use of the DOM.
 
-[Quick Preview]()
+[Quick Preview](https://kmadjei.github.io/js-assignment/)
  
 ## Features
 
@@ -16,5 +16,5 @@ This JavaScript Challenge shows how information taken from a user through form, 
 
 >> The contents presented in the codes and deployment are results of what I have learned for the JavaScript module through the Full Stack Program at the Canadian Business College.
 
->> Instructions and guidance provided by @
+>> Instructions and guidance provided by [@anmarjarjees](https://github.com/anmarjarjees)
 
