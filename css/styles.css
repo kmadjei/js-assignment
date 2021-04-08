@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    background-color: #5F5F5F;
+}
+
+nav {
+    max-width: 600px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li:hover {
+    background-color: black;
+}
+
+
+/* Styling main content */
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
+#membershipForm {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input[type=text], input[type=email] {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+input[type=radio] {
+    margin: 8px 0;
+}
+
+#send {
+    width: 100%;
+    background-color: #5cb85c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset {
+    width: 100%;
+    background-color: #ff6600;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[value=send]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset]:hover {
+    background-color: #ff8b3d;
+}
+
+/* styling excel content */
+.excel-container {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#excel-btn {
+    width: 100%;
+    background-color: #5cb85c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#excel-btn:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin:  0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #91acda; 
+    color: #fff;
+}
+
+
+footer {
+    text-align: center;
+    margin: 10px;
+}

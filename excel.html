@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>JS Assignment</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="title">Excel Functions</h1>
+
+        <div class="excel-container">
+            <!-- Input for excel functions -->
+            <label for="user-number">Please enter your data of numbers separated by spaces</label>
+            <input type="text" name="numbers" id="user-number" placeholder="4 55 66...">
+
+            <p>Select a function:</p>
+            
+            <input type="Radio" name="calculation" id="autosum" checked>
+            <label for="autosum">AutoSum</label><br>
+            <input type="Radio" name="calculation" id="average">
+            <label for="average">Average</label><br>
+            <input type="Radio" name="calculation" id="max">
+            <label for="max">Max</label><br>
+            <input type="Radio" name="calculation" id="min">
+            <label for="min">Min</label> 
+
+            <button id="excel-btn">Calculate</button>
+
+            <!-- User information results output for html doc -->
+            <div id="output"></div>
+
+        </div>
+        
+
+        <footer>
+            <p>Copyright 2021 &copy; Canadian Business College - JavaScript Final Assignment - Kenneth Adjei</p>
+        </footer>
+
+    </main>
+
+    
+    <!-- JavaScript file to execute function -->
+    <script src="js/script.js"></script>
+</body>
+</html>

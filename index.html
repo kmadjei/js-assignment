@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>JS Assignment</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="title">Membership Registration</h1>
+
+        <!-- Form for user information -->
+        <form id="membershipForm" method="POST" action="/">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+          
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email-address" placeholder="Your email...">
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="street-address" placeholder="123 Rexdale Blvd">
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="Toronto">
+
+            <label for="province">Province</label>
+            <input type="text" id="province" name="province" placeholder="ON">
+          
+            <label for="membership-package">Membership Package?</label>
+            <div id="membership-package">
+                <input type="radio" id="premium-membership" name="membership-package" value="Premium" checked>
+                <label for="premium-membership">Premium Membership</label><br>
+                <input type="radio" id="standard-membership" name="membership-package" value="Standard">
+                <label for="premium-membership">Standard Membership</label><br>
+                <input type="radio" id="basic-membership" name="membership-package" value="Basic Membership">
+                <label for="basic-membership" >Basic Membership</label>
+            </div>
+
+            <div class="buttons">
+                <input id="send" type="button" value="Send" onclick="userForm()">
+                <input id="reset" type="button" value="Cancel">
+            </div>
+                  
+        </form>
+
+        <!-- User information results output for html doc -->
+        <div id="output"></div>
+
+        <footer>
+            <p>Copyright 2021 &copy; Canadian Business College - JavaScript Final Assignment - Kenneth Adjei</p>
+        </footer>
+
+    </main>
+
+    
+    <!-- JavaScript file to execute function -->
+    <script src="js/script.js"></script>
+</body>
+</html>
