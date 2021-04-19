@@ -2,7 +2,7 @@
 
 # JavaScript Assignment
 
-This JavaScript Challenge shows how information taken from a user through form, can be processed and displayed through the use of the DOM.
+This JavaScript Challenge shows how information taken from a user through an HTML form, can be processed and displayed to th web page through manipulation of the DOM.
 
 [Quick Preview](https://kmadjei.github.io/js-assignment/)
  
